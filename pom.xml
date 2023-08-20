@@ -1,6 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.eurekaclinical</groupId>
     <artifactId>cas-mock</artifactId>
     <packaging>war</packaging>
     <version>2.2-SNAPSHOT</version>
@@ -11,21 +10,21 @@
     <parent>
         <groupId>org.eurekaclinical</groupId>
         <artifactId>eurekaclinical-parent-standard-deps</artifactId>
-        <version>3</version>
+        <version>4-Alpha-4-SNAPSHOT</version>
     </parent>
     
-    <url>https://github.com/eurekaclinical/cas-mock.git</url>
+    <url>https://github.com/arpost/cas-mock.git</url>
 
     <scm>
-        <connection>scm:git:https://github.com/eurekaclinical/cas-mock.git</connection>
-        <developerConnection>scm:git:https://github.com/eurekaclinical/cas-mock.git</developerConnection>
-        <url>https://github.com/eurekaclinical/cas-mock.git</url>
+        <connection>scm:git:https://github.com/arpost/cas-mock.git</connection>
+        <developerConnection>scm:git:https://github.com/arpost/cas-mock.git</developerConnection>
+        <url>https://github.com/arpost/cas-mock.git</url>
         <tag>HEAD</tag>
     </scm>
 	
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/eurekaclinical/cas-mock/issues</url>
+        <url>https://github.com/arpost/cas-mock/issues</url>
     </issueManagement>
     
     <build>
